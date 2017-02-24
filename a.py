@@ -1,7 +1,15 @@
-import os
-import os.path
+import sys
+from time import sleep
 
-hard_code_token = "winlandiano"
-hard_code_stuff_lenth = 1600
 
-os.path.walk("/User/alex/sample/ex1.pdf")
+print("djaf")
+print("djaf")
+print("djaf")
+print("djaf")
+for i in range(1,5):
+    if i % 2 ==0:
+        sys.stdout.write("\rdasafasfas")
+    else:
+        sys.stdout.write("\rm")
+    sys.stdout.flush()
+    sleep(1)
